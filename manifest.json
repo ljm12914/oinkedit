@@ -1,0 +1,52 @@
+﻿{
+    "name": "oinkedit",
+    "short_name": "oinkedit",
+    "description": "A PWA novel writing tool.",
+    "display": "standalone",
+    "start_url": "/",
+    "lang": "zh-CN",
+    "orientation": "natural",
+    "scope": "/",
+    "id": "/",
+    "prefer_related_applications": false,
+    "theme_color": "#5C6BE0",
+    "background_color": "#5C6BE0",
+    "protocol_handlers": [
+        {
+            "protocol": "web+oinkedit",
+            "url": "?url=%s"
+        }
+    ],
+    "icons": [
+        {
+            "src": "icons/1024.png",
+            "sizes": "1024x1024",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/256.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/64.png",
+            "sizes": "64x64",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
